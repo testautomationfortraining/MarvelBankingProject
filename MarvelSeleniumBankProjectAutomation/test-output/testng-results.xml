@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="7" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-03T10:20:45 IST" name="Banking Site" finished-at="2022-05-03T10:21:36 IST" duration-ms="50413">
+    <groups>
+    </groups>
+    <test started-at="2022-05-03T10:20:45 IST" name="Banking Test Cases" finished-at="2022-05-03T10:21:36 IST" duration-ms="50413">
+      <class name="com.marvelbank.qa.testcases.DeleteCustomerPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.marvelbank.qa.testcases.DeleteCustomerPageTest@5fdcaa40]" started-at="2022-05-03T10:21:21 IST" name="setUp" finished-at="2022-05-03T10:21:27 IST" duration-ms="6452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateDeleteCustomerPageTitle()[pri:0, instance:com.marvelbank.qa.testcases.DeleteCustomerPageTest@5fdcaa40]" started-at="2022-05-03T10:21:27 IST" name="validateDeleteCustomerPageTitle" finished-at="2022-05-03T10:21:27 IST" duration-ms="11" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Guru99 Bank Delete Customer Page] but found [Guru99 Bank Manager HomePage]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Guru99 Bank Delete Customer Page] but found [Guru99 Bank Manager HomePage]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.marvelbank.qa.testcases.DeleteCustomerPageTest.validateDeleteCustomerPageTitle(DeleteCustomerPageTest.java:33)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDeleteCustomerPageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.marvelbank.qa.testcases.DeleteCustomerPageTest@5fdcaa40]" started-at="2022-05-03T10:21:27 IST" name="tearDown" finished-at="2022-05-03T10:21:27 IST" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.marvelbank.qa.testcases.DeleteCustomerPageTest@5fdcaa40]" started-at="2022-05-03T10:21:27 IST" name="setUp" finished-at="2022-05-03T10:21:34 IST" duration-ms="7069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="deleteTheCustomer()[pri:1, instance:com.marvelbank.qa.testcases.DeleteCustomerPageTest@5fdcaa40]" started-at="2022-05-03T10:21:34 IST" name="deleteTheCustomer" finished-at="2022-05-03T10:21:35 IST" duration-ms="1076" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteTheCustomer -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.marvelbank.qa.testcases.DeleteCustomerPageTest@5fdcaa40]" started-at="2022-05-03T10:21:35 IST" name="tearDown" finished-at="2022-05-03T10:21:36 IST" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.marvelbank.qa.testcases.DeleteCustomerPageTest -->
+      <class name="com.marvelbank.qa.testcases.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.marvelbank.qa.testcases.HomePageTest@1a451d4d]" started-at="2022-05-03T10:21:01 IST" name="setUp" finished-at="2022-05-03T10:21:07 IST" duration-ms="5878" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateTitle()[pri:0, instance:com.marvelbank.qa.testcases.HomePageTest@1a451d4d]" started-at="2022-05-03T10:21:07 IST" name="validateTitle" finished-at="2022-05-03T10:21:07 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.marvelbank.qa.testcases.HomePageTest@1a451d4d]" started-at="2022-05-03T10:21:07 IST" name="tearDown" finished-at="2022-05-03T10:21:07 IST" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.marvelbank.qa.testcases.HomePageTest@1a451d4d]" started-at="2022-05-03T10:21:07 IST" name="setUp" finished-at="2022-05-03T10:21:13 IST" duration-ms="5774" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateLogo()[pri:1, instance:com.marvelbank.qa.testcases.HomePageTest@1a451d4d]" started-at="2022-05-03T10:21:13 IST" name="validateLogo" finished-at="2022-05-03T10:21:13 IST" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.marvelbank.qa.testcases.HomePageTest@1a451d4d]" started-at="2022-05-03T10:21:13 IST" name="tearDown" finished-at="2022-05-03T10:21:13 IST" duration-ms="163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.marvelbank.qa.testcases.HomePageTest@1a451d4d]" started-at="2022-05-03T10:21:13 IST" name="setUp" finished-at="2022-05-03T10:21:19 IST" duration-ms="5914" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickDeleteCustomerBtn()[pri:2, instance:com.marvelbank.qa.testcases.HomePageTest@1a451d4d]" started-at="2022-05-03T10:21:19 IST" name="clickDeleteCustomerBtn" finished-at="2022-05-03T10:21:21 IST" duration-ms="1313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickDeleteCustomerBtn -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.marvelbank.qa.testcases.HomePageTest@1a451d4d]" started-at="2022-05-03T10:21:21 IST" name="tearDown" finished-at="2022-05-03T10:21:21 IST" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.marvelbank.qa.testcases.HomePageTest -->
+      <class name="com.marvelbank.qa.testcases.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.marvelbank.qa.testcases.LoginPageTest@27ce24aa]" started-at="2022-05-03T10:20:45 IST" name="setUp" finished-at="2022-05-03T10:20:50 IST" duration-ms="5182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateTitle()[pri:0, instance:com.marvelbank.qa.testcases.LoginPageTest@27ce24aa]" started-at="2022-05-03T10:20:50 IST" name="validateTitle" finished-at="2022-05-03T10:20:50 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.marvelbank.qa.testcases.LoginPageTest@27ce24aa]" started-at="2022-05-03T10:20:50 IST" name="tearDown" finished-at="2022-05-03T10:20:51 IST" duration-ms="158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.marvelbank.qa.testcases.LoginPageTest@27ce24aa]" started-at="2022-05-03T10:20:51 IST" name="setUp" finished-at="2022-05-03T10:20:55 IST" duration-ms="4429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateLogo()[pri:1, instance:com.marvelbank.qa.testcases.LoginPageTest@27ce24aa]" started-at="2022-05-03T10:20:55 IST" name="validateLogo" finished-at="2022-05-03T10:20:55 IST" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.marvelbank.qa.testcases.LoginPageTest@27ce24aa]" started-at="2022-05-03T10:20:55 IST" name="tearDown" finished-at="2022-05-03T10:20:55 IST" duration-ms="133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.marvelbank.qa.testcases.LoginPageTest@27ce24aa]" started-at="2022-05-03T10:20:55 IST" name="setUp" finished-at="2022-05-03T10:20:59 IST" duration-ms="4173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginToApp()[pri:2, instance:com.marvelbank.qa.testcases.LoginPageTest@27ce24aa]" started-at="2022-05-03T10:20:59 IST" name="loginToApp" finished-at="2022-05-03T10:21:01 IST" duration-ms="1747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.marvelbank.qa.testcases.LoginPageTest@27ce24aa]" started-at="2022-05-03T10:21:01 IST" name="tearDown" finished-at="2022-05-03T10:21:01 IST" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.marvelbank.qa.testcases.LoginPageTest -->
+    </test> <!-- Banking Test Cases -->
+  </suite> <!-- Banking Site -->
+</testng-results>

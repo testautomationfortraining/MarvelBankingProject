@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Banking Site]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Banking Test Cases(failed)">
+    <classes>
+      <class name="com.marvelbank.qa.testcases.DeleteCustomerPageTest">
+        <methods>
+          <include name="validateDeleteCustomerPageTitle"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.marvelbank.qa.testcases.DeleteCustomerPageTest -->
+    </classes>
+  </test> <!-- Banking Test Cases(failed) -->
+</suite> <!-- Failed suite [Banking Site] -->
