@@ -12,6 +12,7 @@ import com.marvelbank.qa.pages.LoginPage;
 
 public class HomePageTest extends TestBase {
 
+	//This is homepage Test
 	LoginPage loginPage;
 	HomePage homePage;
 	DeleteCustomerPage deleteCustomerPage;
